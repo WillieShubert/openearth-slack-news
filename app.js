@@ -4,7 +4,7 @@ var request = require('request');
 
 var hnbot = require('./sources/hnbot');
 var phbot = require('./sources/phbot');
-
+var ttpbot = require('./sources/ttpbot');
 var config = require('./config');
  
 var app = express();
@@ -15,13 +15,13 @@ var port = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
  
 // test route
-app.get('/', function (req, res) { res.status(200).send('Hello world!') });
+app.get('/', function (req, res) { res.status(200).send('Hello Open Earth!') });
 
 
 app.get('/news', function(req, res, next) {
   var query = req.query.text.toLowerCase();
 
-  var bot = hnbot;
+  var bot = ttpbot;
 
   if (phbot.aliases.indexOf(query) > -1) {
     bot = phbot;

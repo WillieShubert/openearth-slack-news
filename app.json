@@ -1,6 +1,6 @@
 {
   "name": "slack-news",
-  "description": "Read news from multiple sources within Slack",
-  "repository": "https://github.com/karan/slack-news",
-  "keywords": ["node", "express", "slack", "hackernews", "producthunt"]
+  "description": "Read news from Open Earth sources within Slack",
+  "repository": "https://github.com/WillieShubert/slack-news",
+  "keywords": ["node", "express", "slack", "environmental-news"]
 }
