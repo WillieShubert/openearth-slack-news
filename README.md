@@ -3,8 +3,6 @@ slack-news
 
 Read news from multiple sources within Slack by just typing `/news`.
 
-![](http://i.imgur.com/9OU1ICP.gif)
-
 ## Usage
 
 From any Slack channel, just type `/news [source]`. The news will be shown on the same channel.
